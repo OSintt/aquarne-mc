@@ -1,0 +1,8 @@
+.minijuegos {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+}

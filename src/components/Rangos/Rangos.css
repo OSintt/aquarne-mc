@@ -1,0 +1,83 @@
+.rangos h1 {
+  text-align: center;
+}
+.rangos {
+  width: 95%;
+  margin: auto;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  padding: 1rem 0;
+}
+.rangos-list {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20%);
+  place-content: center;
+  gap: 30px;
+}
+.RangoElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #00000051;
+  backdrop-filter: blur(3px);
+  border: 3px solid #ffffffae;
+  overflow: hidden;
+  z-index: 0;
+}
+.elemento-rango {
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.oro {
+  background-image: url("../Rangos/Rango-img/oro.jpg");
+}
+.diamante {
+  background-image: url("../Rangos/Rango-img/diamante.jpg");
+}
+.redstone {
+  background-image: url("../Rangos/Rango-img/redstone.jpg");
+}
+.esmeralda {
+  background-image: url("../Rangos/Rango-img/esmeralda.jpg");
+}
+.RangoElement img {
+  width: 90px;
+  padding: 1rem;
+}
+.linea-separadora {
+  width: 90%;
+  margin: 2rem auto;
+  height: 5px;
+  background-color: #fff;
+}
+.RangoElement p {
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 1px #000;
+}
+.RangoElement button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffffd5;
+  color: #000000;
+  cursor: pointer;
+}
+.RangoElement button:hover {
+  transition: 0.4s all;
+  color: #fff;
+  background-color: rgba(130, 125, 125, 0.733);
+}

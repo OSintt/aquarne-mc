@@ -1,0 +1,31 @@
+footer {
+  margin: 0;
+  padding: 1% 0;
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100%;
+  font-size: 2vh;
+  background-color: rgba(0, 0, 0, 0.846);
+  position: relative;
+}
+.parrafo-footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.contacto {
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 6px;
+  background-color: #000;
+}
+.contacto:hover {
+  transition: 0.4s;
+  background-color: #555454;
+}
+.creada {
+  left: 5%;
+  top: 50%;
+  position: absolute;
+  color: #ffffffa9;
+}

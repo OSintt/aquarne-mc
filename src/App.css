@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+.container {
+  width: 100%;
+  margin: auto;
+  font-family: "Kanit", sans-serif;
+  color: #fff;
   display: flex;
+  min-height: 100vh;
+  gap: 30px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-image: url("./components/img/background.jpg");
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
 }
-
-.App-link {
-  color: #61dafb;
+#root {
+  min-height: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#enlace {
+  z-index: 5;
+  position: fixed;
+  bottom: 10%;
+  right: 3%;
+  background-color: #000000e3;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-size: 2.5vh;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+}
+#enlace:hover {
+  transition: 0.4s;
+  background-color: rgba(128, 128, 128, 0.733);
 }

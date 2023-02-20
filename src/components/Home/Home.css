@@ -1,0 +1,33 @@
+.home {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+}
+.linea-separadora {
+  width: 90%;
+  margin: 1rem auto;
+  height: 5px;
+  background-color: #fff;
+}
+.descripcion-home {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+.descripcion-home img {
+  border: 5px solid #ffffff92;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px 30px;
+  border-radius: 50%;
+}
+.descripcion-home p {
+  display: grid;
+  place-content: center;
+  font-size: 1.2rem;
+  text-align: justify;
+}
